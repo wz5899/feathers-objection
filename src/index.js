@@ -482,13 +482,13 @@ class Service extends AdapterService {
       delete query.$modify;
     }
 
-    if (joinRelation || leftJoinRelation) {
+    /*if (joinRelation || leftJoinRelation) {
       const groupByColumns = this.getGroupByColumns(q);
 
       if (!groupByColumns) {
         q.distinct(`${this.Model.tableName}.*`);
       }
-    }
+    } */
 
     // apply eager filters if specified
     if (this.eagerFilters) {
