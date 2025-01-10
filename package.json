@@ -1,5 +1,5 @@
 {
-  "name": "feathers-objection",
+  "name": "@wz5899/feathers-objection",
   "description": "A service plugin for ObjectionJS an ORM based on KnexJS",
   "version": "7.6.0",
   "homepage": "https://github.com/feathersjs-ecosystem/feathers-objection",
@@ -15,21 +15,12 @@
     "postgresql",
     "redshift"
   ],
-  "license": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/feathersjs-ecosystem/feathers-objection/blob/master/LICENSE"
-    }
-  ],
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git://github.com/feathersjs-ecosystem/feathers-objection.git"
   },
-  "author": {
-    "name": "Feathers contributors",
-    "email": "hello@feathersjs.com",
-    "url": "https://feathersjs.com"
-  },
+  "author": "Feathers contributors <hello@feathersjs.com> (https://feathersjs.com)",
   "contributors": [],
   "bugs": {
     "url": "https://github.com/feathersjs-ecosystem/feathers-objection/issues"
@@ -61,7 +52,9 @@
     "example": "babel-node example/app"
   },
   "directories": {
-    "lib": "lib"
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
   },
   "dependencies": {
     "@feathersjs/adapter-commons": "^4.5.16",
